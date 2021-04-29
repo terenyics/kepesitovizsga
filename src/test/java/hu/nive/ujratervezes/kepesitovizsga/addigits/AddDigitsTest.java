@@ -1,5 +1,6 @@
 package hu.nive.ujratervezes.kepesitovizsga.addigits;
 
+import addigits.AddDigits;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -7,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AddDigitsTest {
 
-    /**private AddDigits digitAdder;
+    private AddDigits digitAdder;
 
     @BeforeEach
     void init() {
@@ -62,6 +63,6 @@ class AddDigitsTest {
     @Test
     void test_addDigits_15_5minus55() {
         assertEquals(15, digitAdder.addDigits("5-55"));
-    }**/
+    }
 
 }
